@@ -193,6 +193,7 @@ body {
   
   table{
     margin-bottom: 20px;
+    
   }
   th {
     border-bottom: 1px solid black;
@@ -204,4 +205,8 @@ body {
   
   .text-danger {
     color: red;
+  }
+
+  td.bar{
+    width: 25%;
   }
