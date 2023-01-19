@@ -38,7 +38,7 @@
               <option></option>
               @foreach ($kelas as $k )
               @if($siswa->kelas_id == $k->id)
-                <option value="{{ $k->id }}" selected{{ $k->nama_kelas }}></option>
+                <option value="{{ $k->id }}" selected>{{ $k->nama_kelas }}</option>
               @else
                 <option value="{{ $k->id }}">{{ $k->nama_kelas }}</option> 
               @endif   
